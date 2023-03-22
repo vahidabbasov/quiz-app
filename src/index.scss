@@ -18,6 +18,12 @@ body {
   padding: 40px;
   background-color: #fff;
   position: relative;
+  @media (max-width:580px) {
+    width: 300px;
+  }
+  @media (max-width:380px) {
+    width: 280px;
+  }
 
   .result {
     text-align: center;
